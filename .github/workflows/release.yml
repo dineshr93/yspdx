@@ -27,7 +27,7 @@ jobs:
         run: pip install uv
 
       - name: Build package
-        run: uv pip compile --generate-hashes && uv venv && uv pip install -r requirements.txt && uv pack dist
+        run: uv pip install --system && uv pack dist
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
