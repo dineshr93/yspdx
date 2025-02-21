@@ -26,8 +26,11 @@ jobs:
       - name: Install uv
         run: pip install uv
 
+      - name: Install dependencies
+        run: uv pip install --system .  # Install from the current directory
+      
       - name: Build package
-        run: uv pip install --system && uv pack dist
+        run: uv pack dist
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
