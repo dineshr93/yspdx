@@ -1,6 +1,6 @@
 # yspdx
 
-A Python package for processing SPDX (Software Package Data Exchange) files with different output formats.
+A Python package for processing several SPDX (Software Package Data Exchange) files generated from create-spdx.bbclass with different output formats.
 
 ## Installation
 
@@ -43,3 +43,8 @@ The tool generates different output files based on the mode:
 ## Author
 
 Dinesh Ravi
+
+## License
+Copyright (c) 2025 Dinesh Ravi
+GPL-3.0+ License
+
