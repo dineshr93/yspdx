@@ -4,7 +4,7 @@
     "features": {
         "ghcr.io/devcontainers/features/docker-in-docker:1": {}
     },
-    "postCreateCommand": "pip install uv && uv pip install .",
+    "postCreateCommand": "pip install uv && pip install . && yspdx -h",
     "customizations": {
         "vscode": {
             "settings": {
