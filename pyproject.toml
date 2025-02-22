@@ -1,6 +1,6 @@
 [project]
 name = "yspdx"
-version = "0.1.1"
+version = "0.1.2"
 description = "SPDX file processor for master yocto system information from create-spdx.bbclass"
 authors = [{ name = "Dinesh Ravi", email = "dineshr93@gmail.com" }]
 dependencies = ["zstandard>=0.22.0"]
